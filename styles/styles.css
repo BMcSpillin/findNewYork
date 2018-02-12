@@ -4,6 +4,11 @@
 
 html {
   font-family: sans-serif;
+  background-color: #b2b3c1;
+}
+
+h3 {
+  color: #47474f;
 }
 
 #header {
@@ -19,6 +24,7 @@ body {
   max-width: 400px;
   min-width: 340px;
   margin: auto;
+  height: 100%;
 }
 
 h1 {
@@ -34,6 +40,7 @@ h1 {
   padding-right: 5px;
   float: right;
   background-color: rgba(255,255,255,0.8);
+  color: inherit;
 }
 
 container {
@@ -42,4 +49,10 @@ container {
 
 ul {
   list-style: none;
+}
+
+button {
+  background-color: red;
+  color: white;
+  margin: auto;
 }
