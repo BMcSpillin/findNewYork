@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-
+    fit=no">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Find New York</title>
+  </head>
+  <body>
+    <main>
+      <div id="header">
+        <h1>Find New York</h1>
+        <h3>Where will your curiousity take you?</h3>
+      </div>
+      <container id="neighborhood">
+      <div>
+        <h3>
+          Which New York neighborhood do you want to explore?
+        </h3>
+        <ul>
+          <li>
+            <button id="soho">SoHo</button>
+          </li>
+          <li>
+            <button class="nothingYet">Greenwich Village</button>
+          </li>
+          <li>
+            <button class="nothingYet">Harlem</button>
+          </li>
+        </ul>
+      </div>
+    </container>
+    <container id="clues" style="display:none">
+      <p>Follow the clues to fun places for eating, drinking, shopping and sightseeing.</p>
+      <ul>
+        <li class="clue clue1 soho" id="clue1" style="display:none" data-name="Housing Works Bookstore" data-ll="40.724604,-73.996576">
+          <p>
+            This organization fights for funding and legislation in support of people living with HIV/AIDS. Their SoHo location is a bookstore with a coffee shop in the back, and is also available for private events.
+          </p>
+        </li>
+        <li class="answer" id="answer1" style="display:none">
+          <p>
+            Housing Works Bookstore is correct! 
+          </p>
+          <button class="continue">Next Clue</button>
+        </li>
+        <li class="clue clue2 soho" id="clue2" style="display:none" data-name="Prada" data-ll="40.7245,-73.9979">
+          <p>
+            If you are a film lover, you may appreciate that this brand's designers were collaborators to costumer Catherine Martin on The Great Gatsby (2013).
+          </p>
+        </li>
+        <li class="answer" id="answer2" style="display:none">
+          <p>
+            Prada is correct! 
+          </p>
+          <button class="continue">Next Clue</button>
+        </li>
+        <li class="clue clue3 soho" id="clue3" style="display:none" data-name="The New York Earth Room" data-ll="40.726039,-73.999944">
+          <p>
+            This Walter De Maria installation is a musty must-see.
+          </p>
+        </li>
+        <li class="answer" id="answer3" style="display:none">
+          <p>
+            The New York Earth Room is correct!
+          </p>
+          <button class="continue">Next Clue</button>
+        </li>
+        <li class="clue clue4 soho" id="clue4" style="display:none" data-name="Georgetown Cupcake" data-ll="40.723768,-73.999597">
+          <p>
+            When it comes to PR, this family business takes the cake. They were featured on their own reality series, and give away an off-the-menu flavor to the first 100 customers to request it after checking out their social media accounts. 
+          </p>
+        </li>
+        <li class="answer" id="answer4" style="display:none">
+          <p>
+            Georgetown Cupcakes is correct!
+          </p>
+          <button class="continue">Next Clue</button>
+        </li>
+        <li class="clue clue5 soho" id="clue5" style="display:none" data-name="Fanelli Cafe" data-ll="40.724547,-73.998819">
+          <p>
+            This local favorite is amongst New York's oldest taverns. If you're in a hurry, take something from their soup kiosk to go!
+          </p>
+        </li>
+        <li class="answer" id="answer5" style="display:none">
+          <p>
+            Fanelli Cafe is correct! 
+
+            You've found New York. Thanks for playing!
+          </p>
+        </li>
+      </ul>
+      <button id="submit">Submit Answer</button>
+    </container>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
