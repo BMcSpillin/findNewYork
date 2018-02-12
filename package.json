@@ -1,8 +1,22 @@
 {
-  "name": "Find new York",
-  "description": "get to know your city with a scavenger hunt",
+  "name": "findnewyork",
   "version": "1.0.0",
-  "engines": {
-    "node": "8.9.4"
-  }
+  "description": "get to know your city with a scavenger hunt",
+  "main": "script.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BMcSpillin/findNewYork.git"
+  },
+  "keywords": [
+    "nyc"
+  ],
+  "author": "Bridget McMillan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BMcSpillin/findNewYork/issues"
+  },
+  "homepage": "https://github.com/BMcSpillin/findNewYork#readme"
 }
