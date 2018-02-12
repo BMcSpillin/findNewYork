@@ -1,0 +1,8 @@
+{
+  "name": "Find new York",
+  "description": "get to know your city with a scavenger hunt",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.9.4"
+  }
+}
